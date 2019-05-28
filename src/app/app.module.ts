@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { PostComponent } from './post/post.component';
+import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -14,7 +15,10 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      { path: 'posts', component: PostComponent },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
