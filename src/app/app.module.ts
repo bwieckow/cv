@@ -7,6 +7,7 @@ import { PostComponent } from './post/post.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
     HeaderComponent,
     PostComponent,
     FooterComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
