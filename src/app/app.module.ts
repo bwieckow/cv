@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { PostComponent } from './post/post.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { SideMenuComponent } from './side-menu/side-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PostComponent,
-    FooterComponent
+    FooterComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,

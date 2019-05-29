@@ -1,5 +1,13 @@
 <app-header></app-header>
 
-<router-outlet></router-outlet>
+<div class="row">
+    <div class="large-9 columns" role="content">
+        <router-outlet></router-outlet>
+    </div>
+
+    <aside class="large-3 columns">
+        <app-side-menu></app-side-menu>
+    </aside>
+</div>
 
 <app-footer></app-footer>
