@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { PanelComponent } from './panel/panel.component';
+import { CvComponent } from './cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,13 @@ import { PanelComponent } from './panel/panel.component';
     PostComponent,
     FooterComponent,
     SideMenuComponent,
-    PanelComponent
+    PanelComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: 'posts', component: PostComponent },
+      { path: 'cv', component: PostComponent },
     ])
   ],
   providers: [],
