@@ -23,7 +23,8 @@ import { CvComponent } from './cv/cv.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: 'cv', component: PostComponent },
+      { path: 'cv', component: CvComponent },
+      { path: 'posts', component: PostComponent },
     ])
   ],
   providers: [],

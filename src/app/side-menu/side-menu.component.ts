@@ -13,16 +13,16 @@ export class SideMenuComponent implements OnInit {
   ngOnInit() {
   }
 
-  navNews() {
-    this.router.navigate(['/posts']);
+  navCv() {
+    this.router.navigate(['/cv']);
   }
 
   navCode() {
     this.router.navigate(['/']);
   }
 
-  navDesign() {
-    this.router.navigate(['/']);
+  navPosts() {
+    this.router.navigate(['/posts']);
   }
 
   navHobbies() {
