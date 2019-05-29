@@ -20,4 +20,12 @@ export class SideMenuComponent implements OnInit {
   navCode() {
     this.router.navigate(['/']);
   }
+
+  navDesign() {
+    this.router.navigate(['/']);
+  }
+
+  navHobbies() {
+    this.router.navigate(['/']);
+  }
 }
